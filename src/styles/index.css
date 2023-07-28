@@ -1,0 +1,51 @@
+* {
+  color: #c1c1c1;
+}
+
+body, html {
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  font-size: 15px;
+  margin: 0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: #1F2235;
+  scroll-behavior: smooth;
+}
+
+.page-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: 50px 0;
+  margin: 0;
+  justify-content: center;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 5px;
+}
+
+#home-box ::-webkit-scrollbar-thumb {
+  background: #171b2d;
+}
+
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner   {
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+  display: block;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}

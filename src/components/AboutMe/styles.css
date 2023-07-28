@@ -1,0 +1,80 @@
+#aboutme-container {
+    width: 100%;
+    height: auto;
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutme-container h1 {
+    text-decoration: underline;
+    margin-left: 25px;
+    color: #75652E;
+    align-self: flex-start;
+}
+
+.aboutme-box {
+    height: 800px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #141623;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.aboutme-box header {
+    height: 170px;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #c1c1c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.aboutme-photo {
+    height: 220px;
+    width: 220px;
+    display: flex;
+    border-radius: 50%;
+    background-image: url(../../images/photo.jpeg);
+    background-size: cover;
+    position: absolute;
+    top: 2500px;
+    background-color: #181a29;
+    border: 5px solid #181a29;
+}
+
+.aboutme-box-content {
+    height: calc(100% - 170px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme-data {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.aboutme-data ion-icon {
+    margin-right: 10px;
+    font-size: 1.8em;
+    color: #75652E;
+}
+
+.aboutme-box-content .resume-medias-box {
+    margin-top: 50px;
+}

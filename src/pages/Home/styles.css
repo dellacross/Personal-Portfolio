@@ -1,0 +1,12 @@
+#main-container {
+    height: auto;
+    width: 60vw;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: #181a29;
+    flex-direction: column;
+    align-items: center;
+}
+
+

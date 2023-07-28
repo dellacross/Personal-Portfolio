@@ -1,0 +1,103 @@
+.main-header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #141623;
+}
+
+.main-nav-bar {
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+
+.Portfolio-Owner-Name {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.Portfolio-Owner-Name b {
+    color: #75652E;
+}
+
+.Portfolio-Owner-Name ion-icon {
+    margin-right: 10px;
+}
+
+.Portfolio-Owner-Name:hover,
+.nav-menu-item a:hover {
+    color: #75652E;
+    cursor: pointer;
+}
+
+.nav-menu {
+    width: calc(100% - 400px);
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-menu-item {
+    width: 125px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu-item a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #c1c1c1;
+    text-decoration: none;
+}
+
+.social-medias-box {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.7em;
+}
+
+.social-media-box {
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-box a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta-icon a ion-icon:hover {
+    color: #dd4ec5;
+}
+
+.linkedin-icon a ion-icon:hover {
+    color: #A8D4FF;
+}
+
+.github-icon a ion-icon:hover {
+    color: #fff;
+}
+
+.language-icon ion-icon:hover {
+    color: #085F9F;
+    cursor: pointer;
+}

@@ -1,0 +1,166 @@
+#resume-container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.side-resume-box {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photo-box {
+    height: 220px;
+    width: 220px;
+    display: flex;
+    border-radius: 50%;
+    background-image: url(../../images/photo.jpeg);
+    background-size: cover;
+}
+
+.infos-box {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resume-medias-box {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.resume-medias-box ion-icon {
+    font-size: 2.5em;
+}
+
+.insta-icon ion-icon:hover {
+    color: #dd4ec5;
+}
+
+.linkedin-icon ion-icon:hover {
+    color: #A8D4FF;
+}
+
+.github-icon ion-icon:hover {
+    color: #fff;
+}
+
+.infos-box h3,
+.about-me-resume h4 {
+    margin-bottom: 0;
+}
+
+.infos-box h4 {
+    margin-top: 0;
+}
+
+.curriculum-box {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    margin-top: 50px;
+    background-color: #c1c1c1;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.curriculum-box button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+}
+
+.dw-cv {
+    display: none;
+    height: 100%;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #c1c1c1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.dw-cv ion-icon {
+    color: #1F2235;
+    font-size: 2.5em;
+}
+
+.cv-comp {
+    display: none;
+    height: 100%;
+    width: calc(100% - 50px);
+    justify-content: center;
+    align-items: center;
+}
+
+.cv-comp h3 {
+    margin: 0;
+}
+
+.curriculum-box h1 {
+    color: #1F2235;
+}
+
+.curriculum-box:hover {
+    border: 2px solid #c1c1c1;
+    background-color: transparent;
+    width: 250px;
+}
+
+.curriculum-box:hover h1 {
+    color: #c1c1c1;
+}
+
+.curriculum-box:hover .cv-abrev {
+    display: none;
+}
+
+.curriculum-box:hover .cv-comp,
+.curriculum-box:hover .dw-cv {
+    display: flex;
+}
+
+.about-me-resume {
+    height: auto;
+    width: 80%;
+    display: flex;
+    font-weight: 550;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 10px;
+    text-align: justify;
+    flex-direction: column;
+    line-height: 1.7em;
+}
+
+.about-me-resume h1 {
+    margin-bottom: 0;
+}
+
+.about-me-resume h3 a {
+    cursor: pointer;
+}
+
+.about-me-resume h3 a:hover {
+    color: #75652E;
+    text-decoration: underline;
+}

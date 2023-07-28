@@ -1,0 +1,28 @@
+
+#contact-container {
+    width: calc(100% - 25px);
+    padding-left: 25px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #141623;
+}
+
+#contact-container h1 {
+    text-decoration: underline;
+    color: #75652E;
+}
+
+.contact-row {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.contact-row ion-icon {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
