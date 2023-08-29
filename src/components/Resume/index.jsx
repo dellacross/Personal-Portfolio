@@ -22,7 +22,7 @@ const Resume = () => {
             <img src="../../images/photo.jpeg" alt="" />
         </div>
         <div className="infos-box">
-            <h3>Victor D. C. Maltez</h3>
+            <h3>Victor Della Croce Maltez</h3>
             <h4>Graduando em Sistemas de Informação</h4>
             <div className="resume-medias-box">
               <a className="linkedin-icon" href="https://www.linkedin.com/in/victor-della-croce-maltez-48711b187/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
@@ -42,7 +42,7 @@ const Resume = () => {
         <div className="about-me-resume">
           <h1>Olá!</h1>
           <h3>
-            &nbsp;&nbsp;Sou graduando do 7º período do curso de Sistemas de Informação, pela Universidade Federal 
+            Sou graduando do 7º período do curso de Sistemas de Informação, pela Universidade Federal 
             de Minas Gerais (UFMG). Ao longo da minha formação, desenvolvi diversos projetos, em diferentes linguagens,
             e, atualmente, busco aplicar os conhecimentos adquiridos no mercado de trabalho como desenvolvedor web.
           </h3>
