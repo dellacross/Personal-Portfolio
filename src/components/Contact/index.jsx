@@ -4,7 +4,7 @@ import './styles.css'
 const ContactContainer = () => {
   return (
     <div id="contact-container">
-      <h1>Contato:</h1>
+      <h1>Contato</h1>
       <div className="contact-row">
         <ion-icon name="call-outline"></ion-icon>
         <h3>(31) 99926-0438</h3>
