@@ -3,10 +3,10 @@ import './styles.css'
 
 const NavBar = () => {
   return (
-    <header className="main-header">
+    <header id="main-header">
       <nav className="main-nav-bar">
         <div className="Portfolio-Owner-Name">
-          <h4><b>Victor</b> Della</h4>
+          <h4><b>Victor</b> Della</h4>&nbsp;{"</>"}
         </div>
         <div className="nav-menu">
           <div className="nav-menu-item"><a href="#resume-container" rel="noreferrer">Home</a></div>
