@@ -6,9 +6,10 @@
     align-items: center;
     padding-right: 25px;
     font-size: 1.1em;
-    background-color: #141623;
+    background-color: var(--background-color-1);
+    color: var(--text-color-1);
 }
 
-.copyright-bar b {
-    color: #75652E;
+#copyright-bar b {
+    color: var(--text-color-1);
 }

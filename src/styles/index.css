@@ -9,7 +9,7 @@ body, html {
   font-size: 15px;
   margin: 0;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  background-color: #1F2235;
+  background-color: var(--wrapper-background-color);
   scroll-behavior: smooth;
 }
 
@@ -48,4 +48,22 @@ body, html {
 
 ::-webkit-scrollbar-track {
   background: transparent;
+}
+
+:root {
+  --wrapper-background-color: #d0d0d0;;
+  --background-color-1: #a3a3a3;
+  --background-color-2: #c2c2c2;
+  --text-color-1: #000;
+  --text-color-2: #c53732;
+  --text-color-3: #c1c1c1;
+}
+
+[data-theme="dark"] {
+  --wrapper-background-color: #1F2235;
+  --background-color-1: #141623;
+  --background-color-2: #181a29;
+  --text-color-1: #c1c1c1;
+  --text-color-2: #75652E;
+  --text-color-3: #000;
 }

@@ -8,6 +8,7 @@ import Skills from '../../components/Skills'
 import Projects from '../../components/Projects'
 import Copyright from '../../components/Copyright'
 import AboutMe from '../../components/AboutMe'
+import DarkMode from '../../components/darkMode'
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         <AboutMe />
         <ContactContainer />
         <Copyright />
+        <DarkMode />
       </div>
     </div>
   )

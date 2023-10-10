@@ -1,0 +1,99 @@
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 0 10px;
+  height: 50px;
+  width: 200px;
+  z-index: 0;
+  position: fixed;
+  left: 5px;
+  top: 10px;
+}
+
+.toggleMenu-box button {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.8em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 65px;
+}
+
+.theme-switch input {
+  display: none;
+}
+
+.slider {
+  background: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .1s;
+  box-shadow: inset 8px 8px 8px #c1bebe, inset -8px -8px 8px #dbdbdb;
+}
+
+.slider:before {
+  background: linear-gradient(180deg, #ff8989, #d8860b);;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 2px;
+  position: absolute;
+  transition: .1s;
+  width: 26px;
+}
+
+input:checked + .slider {
+  background-color: #1F2235;
+  box-shadow: inset 6px 6px 6px rgb(0, 0, 0), inset -6px -6px 6px rgb(25, 22, 22);
+}
+
+input:checked + .slider svg.moon {
+  fill: #fff;
+}
+
+input:checked + .slider:before {
+  transform: translateX(33px);
+  background: linear-gradient(180deg, #777, #3a3a3a);;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.slider svg {
+  position: absolute;
+  width: 20px;
+  top: 7px;
+  z-index: 100;
+}
+
+.slider svg.sun {
+  left: 5px;
+  fill: #fff;
+  transition: 0.1s;
+}
+
+.slider svg.moon {
+  left: 38px;
+  fill: #7e7e7e;
+  transition: 0.1s;
+}

@@ -12,7 +12,7 @@ const Resume = () => {
         alink.download = 'curriculo-victor.pdf';
         alink.click();
       })
-  })
+    })
   }
 
   return (
@@ -25,14 +25,14 @@ const Resume = () => {
           <h3>Victor Della Croce Maltez</h3>
           <h4>Graduando em Sistemas de Informação</h4>
           <div className="resume-medias-box">
-            <a className="linkedin-icon" href="https://www.linkedin.com/in/victor-della-croce-maltez-48711b187/" target="_blank"  rel="noreferrer"><ion-icon name="logo-linkedin"></ion-icon></a>
-            <a className="github-icon" href="https://github.com/dellacross" target="_blank"  rel="noreferrer"><ion-icon name="logo-github"></ion-icon></a>
-            <a className="insta-icon" href="https://www.instagram.com/victordella/" target="_blank"  rel="noreferrer"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a className="linkedin-icon" href="https://www.linkedin.com/in/victor-della-croce-maltez-48711b187/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a className="github-icon" href="https://github.com/dellacross" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            <a className="insta-icon" href="https://www.instagram.com/victordella/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
           </div>
           <div className="curriculum-box">
             <button onClick={handleDownload}>
               <div className="dw-cv"><ion-icon name="download-outline"></ion-icon></div>
-              <div className="cv-comp"><h3>Baixar Currículo Vitae</h3></div>
+              <div className="cv-comp"><h3>Baixar Curriculum Vitae</h3></div>
               <div className="cv-abrev"><h1>CV</h1></div>
             </button>
           </div>

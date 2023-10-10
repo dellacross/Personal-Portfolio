@@ -5,12 +5,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--background-color-2);
 }
 
 #aboutme-container h1 {
     text-decoration: underline;
     margin-left: 25px;
-    color: #75652E;
+    color: var(--text-color-2);
     align-self: flex-start;
 }
 
@@ -21,7 +22,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 25px;
-    background-color: #141623;
+    background-color: var(--background-color-1);
     flex-direction: column;
     margin-bottom: 50px;
 }
@@ -31,11 +32,10 @@
     width: 100%;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    background-color: #c1c1c1;
+    background-color: var(--text-color-1);
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .aboutme-photo {
@@ -47,8 +47,8 @@
     background-size: cover;
     position: absolute;
     top: 2500px;
-    background-color: #181a29;
-    border: 5px solid #181a29;
+    background-color: var(--background-color-2);
+    border: 5px solid var(--background-color-2);
 }
 
 .aboutme-box-content {
@@ -69,10 +69,14 @@
     margin-left: 25px;
 }
 
+.aboutme-data h3 {
+    color: var(--text-color-1);
+}
+
 .aboutme-data ion-icon {
     margin-right: 10px;
     font-size: 1.8em;
-    color: #75652E;
+    color: var(--text-color-2);
 }
 
 .aboutme-box-content .resume-medias-box {
