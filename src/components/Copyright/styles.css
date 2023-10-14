@@ -8,6 +8,7 @@
     font-size: 1.1em;
     background-color: var(--background-color-1);
     color: var(--text-color-1);
+    border-top: 1px solid var(--background-color-2);
 }
 
 #copyright-bar b {
